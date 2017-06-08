@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context="widget.etwge.yu.linedividerlinetextview.MainActivity">
+
+        <etwge.yu.widget.LineDividerTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/text1"
+            android:textSize="16sp"
+            app:line_divider="@drawable/divider_gradient"
+            app:line_divider_height="1dp" />
+
+        <etwge.yu.widget.LineDividerTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/text2"
+            android:textSize="16sp"
+            app:line_divider="@drawable/divider_shadow"
+            app:line_divider_height="6dp" />
+
+        <etwge.yu.widget.LineDividerTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/text3"
+            android:textSize="16sp"
+            app:line_divider="@drawable/divider"
+            app:line_divider_height="6dp" />
+
+    </LinearLayout>
+
+</ScrollView>
