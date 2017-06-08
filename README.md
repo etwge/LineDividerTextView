@@ -1,10 +1,10 @@
-### LineDividerTextView
+# LineDividerTextView
 
 add divider between lines
 
 ![image](https://raw.githubusercontent.com/etwge/LineDividerTextView/master/pic/sample.png)
 
-How to use?
+## How to use?
 
 ```
         <etwge.yu.widget.LineDividerTextView
@@ -17,3 +17,5 @@ How to use?
             app:line_divider_height="1dp" />
 
 ```
+## Notice
+set lineSpacingExtra accord line_divider_height
